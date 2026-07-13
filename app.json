@@ -1,0 +1,17 @@
+{
+  "name": "Interview-Trainer-Agent",
+  "description": "An Agentic AI mock interview coach powered by IBM watsonx.ai and Llama models.",
+  "repository": "YOUR_GITHUB_REPOSITORY_URL_HERE",
+  "logo": "",
+  "keywords": ["ibm-bob", "watsonx.ai", "llama3", "streamlit", "multi-agent"],
+  "env": {
+    "WATSONX_APIKEY": {
+      "description": "IBM Cloud API Key to access watsonx.ai models",
+      "required": true
+    },
+    "WATSONX_PROJECT_ID": {
+      "description": "IBM watsonx Project ID",
+      "required": true
+    }
+  }
+}
