@@ -33,6 +33,7 @@ Instead of relying on a standard code editor, this application was developed usi
 *   **Ask Mode / Linting:** Utilized to analyze context windows, debug token thresholds, and verify secure environment variable isolation.
 
 ---
+### 1. Clone the Repository
 
 ## 📦 Local Installation & Setup
 
@@ -41,22 +42,24 @@ Follow these steps to run the Interview Trainer on your local machine:
 ### 1. Clone the Repository
 ```bash
 git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-cd "Interview Trainer Agent" ```
+cd "Interview Trainer Agent"
+```
 
-2. Install Dependencies
+### 2. Install Dependencies
 Ensure you have Python installed, then run the direct module installer in your terminal:
 ```bash
-python -m pip install streamlit ibm-watsonx-ai```
-3. Set Up Environment Variables
+python -m pip install streamlit ibm-watsonx-ai
+```
+### 3. Set Up Environment Variables
 Create a local environment file or configuration block with your credentials:
-
+```
 WATSONX_APIKEY: Your official IBM Cloud Platform API key.
 
 WATSONX_PROJECT_ID: Your associated watsonx project instance ID.
-
-4. Run the Application
+```
+### 4. Run the Application
 Launch the Streamlit dashboard using Python module execution:
 
-Bash
+```bash
 python -m streamlit run app.py
 Once executed, open http://localhost:8501 in your web browser to interact with the agent.
