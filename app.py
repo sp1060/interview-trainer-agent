@@ -7,7 +7,7 @@ from ibm_watsonx_ai.metanames import GenTextParamsMetaNames as GenParams
 st.set_page_config(page_title="Superpower Interview Trainer", page_icon="🏆", layout="wide")
 
 st.title("🏆 AI Interview Trainer Agent (RAG-Powered)")
-st.caption("Orchestrated via IBM watsonx.ai Foundation Models | Problem Statement No. 22")
+st.caption("Orchestrated via IBM watsonx.ai Foundation Models")
 st.markdown("---")
 
 # 🔒 Secure Credentials Retrieval Configuration
